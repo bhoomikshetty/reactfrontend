@@ -1,0 +1,54 @@
+<!DOCTYPE html>   
+
+<html>   
+
+<head>   
+
+    <title>Simple React Example</title>   
+
+</head>   
+
+<body>   
+
+    <div id="root"></div>   
+
+   
+
+<!-- Load the latest version of React and React DOM -->   
+
+<script 	src="https://cdnjs.cloudflare.com/ajax/libs/react/17.0.2/umd/react.development.js" crossorigin>  </script>   
+
+   
+
+<script    
+
+src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/17.0.2/umd/react-dom.production.min.js" crossorigin>  </script>   
+
+   
+
+<!-- Load Babel for JSX -->   
+
+<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>   
+
+       
+
+<!-- Your React code with JSX -->   
+
+<script type="text/babel">   
+
+        // Define a simple React component using JSX         
+         const Button = () => {   
+
+            return <button>Click me!</button>;   
+
+        };   
+
+        // Render the component into the 'root' element   
+
+        ReactDOM.render(<Button />, document.getElementById('root'));   </script>   
+
+   
+
+</body>   
+
+</html>   

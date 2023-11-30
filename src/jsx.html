@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JSX Example</title>
+</head>
+<body>
+    <div id="root"></div>
+
+    <!-- Load the latest version of React and React DOM -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/17.0.2/umd/react.development.js" crossorigin></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/17.0.2/umd/react-dom.production.min.js" crossorigin></script>
+
+    <!-- Load Babel for JSX -->
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+    <!-- Your React code with JSX -->
+    <script type="text/babel">
+        // Define a JSX element
+        const myElement = <h1>This is JSX</h1>;
+
+        // Render the element using ReactDOM.render
+        ReactDOM.render(myElement, document.getElementById('root'));
+    </script>
+</body>
+</html>
