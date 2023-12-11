@@ -1,11 +1,17 @@
-import React from 'react';
-import CourseList from './CourseList.jsx';
+
+import './App.css';
+
+// components
+import Header from './components/Header';
+import TodoForm from './components/TodoForm';
+import Todos from './components/Todos';
 
 function App() {
   return (
     <div>
-      <h1>Education Platform</h1>
-      <CourseList />
+      <Header />
+      <TodoForm />
+      <Todos />
     </div>
   );
 }
